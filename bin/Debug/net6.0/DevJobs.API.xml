@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DevJobs.API</name>
+    </assembly>
+    <members>
+        <member name="M:DevJobs.API.Controllers.JobVacanciesController.Post(DevJobs.API.Models.AddJobVacancyInputModel)">
+            <summary>
+            Cadastrar uma vaga de emprego.
+            </summary>
+            <param name="model">Dados da Vaga.</param>
+            <returns>Objeto recém-criado.</returns>
+            <response code="201">Sucesso.</response>
+        </member>
+    </members>
+</doc>
